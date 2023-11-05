@@ -12,15 +12,20 @@
 	required = true
 
 [core]
-    pager = delta --light # $(defaults read -globalDomain AppleInterfaceStyle &> /dev/null || echo --light)
+	pager = which d >/dev/null 2>/dev/null && d || less
 
 [interactive]
-    diffFilter = delta --color-only --features=interactive --light
+	diffFilter = which d >/dev/null 2>/dev/null && d --color-only || less
 
 [delta]
-    line-numbers = true
-	  navigate = true
+	line-numbers = true
+	navigate = true
+	hyperlinks = true
 
 [diff]
-		colorMoved = default
+	colorMoved = default
 
+[pager]
+	diff = true
+	show = true
+	log = true
