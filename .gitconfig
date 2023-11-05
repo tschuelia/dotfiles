@@ -1,0 +1,26 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Julia
+	email = schmid.julia96@gmail.com
+[http]
+	postBuffer = 157286400
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[core]
+    pager = delta --light # $(defaults read -globalDomain AppleInterfaceStyle &> /dev/null || echo --light)
+
+[interactive]
+    diffFilter = delta --color-only --features=interactive --light
+
+[delta]
+    line-numbers = true
+	  navigate = true
+
+[diff]
+		colorMoved = default
+
