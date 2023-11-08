@@ -1,8 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3400
-SETUVAR _fish_abbr_bio:conda\x20activate\x20bioinfo
-SETUVAR _fish_abbr_diff:conda\x20activate\x20difficulty
 SETUVAR _fish_abbr_gbr:git\x20branch
 SETUVAR _fish_abbr_gca:git\x20commit\x20\x2d\x2damend
 SETUVAR _fish_abbr_gcaa:git\x20commit\x20\x2d\x2damend\x20\x2d\x2dall
@@ -19,15 +17,9 @@ SETUVAR _fish_abbr_grb:git\x20rebase
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_iqtree:/Users/julia/Software/iqtree\x2d2\x2e1\x2e3\x2dMacOSX/bin/iqtree2
 SETUVAR _fish_abbr_m:micromamba
-SETUVAR _fish_abbr_model:conda\x20activate\x20model
-SETUVAR _fish_abbr_mptp:/Users/julia/Software/mptp/bin/mptp
-SETUVAR _fish_abbr_pcaenv:conda\x20activate\x20pca
 SETUVAR _fish_abbr_raxml:/Users/julia/Software/standard\x2dRAxML/raxmlHPC
 SETUVAR _fish_abbr_raxml_2D_ng:/Users/julia/Software/raxml\x2dng/bin/raxml\x2dng
 SETUVAR _fish_abbr_raxml_2D_orig:/Users/julia/Software/raxml\x2dng\x2dupstream/raxml\x2dng/bin/raxml\x2dng
-SETUVAR _fish_abbr_smartpca:/Users/julia/micromamba/envs/pca_micromamba/bin/smartpca
-SETUVAR _fish_abbr_sshfry:ssh\x20\x2dtt\x20fry\x20\x22/home/schmidja/fish\x2d3\x2e3\x2e1/fish\x22
-SETUVAR _fish_abbr_tmuxfry:ssh\x20\x2dtt\x20fry\x20\x22tmux\x20\x2dCC\x20new\x20\x2dA\x20\x2ds\x20main\x22
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
