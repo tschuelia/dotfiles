@@ -28,7 +28,7 @@ abbr -a iqtree '/Users/julia/Software/iqtree-2.1.3-MacOSX/bin/iqtree2'
 
 abbr -a m 'micromamba'
 
-test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+#test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
 
 # >>> mamba initialize >>>
