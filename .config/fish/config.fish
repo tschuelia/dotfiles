@@ -21,12 +21,8 @@ abbr -a gprb 'git pull --rebase'
 abbr -a grb 'git rebase'
 abbr -a gs 'git status'
 
-abbr -a raxml-ng '/Users/julia/Software/raxml-ng/bin/raxml-ng'
-abbr -a raxml '/Users/julia/Software/standard-RAxML/raxmlHPC'
-abbr -a raxml-orig '/Users/julia/Software/raxml-ng-upstream/raxml-ng/bin/raxml-ng'
-abbr -a iqtree '/Users/julia/Software/iqtree-2.1.3-MacOSX/bin/iqtree2'
+abbr -a r 'pixi run'
 
-abbr -a m 'micromamba'
 
 #test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
@@ -39,3 +35,4 @@ $MAMBA_EXE shell hook --shell fish --root-prefix $MAMBA_ROOT_PREFIX | source
 # <<< mamba initialize <<<
 
 fish_add_path /Users/julia/.bin/
+pixi completion --shell fish | source
